@@ -5,4 +5,4 @@ app.get('/', function (req, res) {
     res.send('Beans');
 });
 
-app.listen(5500);
+app.listen(process.env.PORT || 80);
